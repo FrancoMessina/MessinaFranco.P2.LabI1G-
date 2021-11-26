@@ -82,7 +82,7 @@ int controller_MostrarPeliculas(LinkedList* pArrayListaPeliculas)
         system("cls");
         printf("                     ***Lista de Peliculas  ***\n");
         printf("--------------------------------------------------------------------------\n");
-        printf(" ID             TITULO            GENERO            RATING               \n");
+        printf(" ID             TITULO                  GENERO                          RATING               \n");
         printf("---------------------------------------------------------------------------\n");
         for(int i = 0; i < tam; i++)
         {

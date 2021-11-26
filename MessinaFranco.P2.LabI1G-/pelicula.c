@@ -149,7 +149,7 @@ int pelicula_MostrarPelicula(ePelicula* unaPelicula)
             )
     {
 
-        printf("%-15d%-16s %-20s%-.2f \n",id_peli,titulo,genero,rating);
+        printf("%-10d%-30s %-30s%-.1f \n",id_peli,titulo,genero,rating);
         todoOk = 1;
     }
     return todoOk;

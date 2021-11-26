@@ -101,7 +101,7 @@ int main()
         case 7:
             if(!ll_isEmpty(listPeliculas))
             {
-                ingresarString("Ingresa el nombre del .csv a cargar.\n",pathSave);
+                ingresarString("Ingresa el nombre del .csv a guardar.\n",pathSave);
                 controller_saveAsText(pathSave, listPeliculas);
                 printf("Guardado exitoso\n");
             }
