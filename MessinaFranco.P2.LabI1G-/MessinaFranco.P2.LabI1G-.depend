@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1637967728 source:c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\main.c
+	<stdio.h>
+	<stdlib.h>
+	"linkedList.h"
+	"time.h"
+	"input.h"
+	"controller.h"
+	"pelicula.h"
+	<ctype.h>
+
+1637968176 source:c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"linkedlist.h"
+
+1637941549 c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\linkedlist.h
+
+1637967316 source:c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1637967225 c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\input.h
+
+1637966843 c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\controller.h
+	"linkedList.h"
+
+1637964757 source:c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"linkedlist.h"
+	"parser.h"
+	"pelicula.h"
+
+1637965091 c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\parser.h
+	"linkedList.h"
+
+1637966156 c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\pelicula.h
+
+1637966832 source:c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"linkedList.h"
+	"parser.h"
+	"input.h"
+	"controller.h"
+	"pelicula.h"
+
+1637968353 source:c:\users\franc\desktop\messinafranco.p1.labl2g-\messinafranco.p2.labi1g-\pelicula.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"pelicula.h"
+	"input.h"
+

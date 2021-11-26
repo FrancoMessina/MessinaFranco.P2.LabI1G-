@@ -31,9 +31,25 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="controller.h" />
+		<Unit filename="input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input.h" />
+		<Unit filename="linkedList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="linkedList.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parser.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
