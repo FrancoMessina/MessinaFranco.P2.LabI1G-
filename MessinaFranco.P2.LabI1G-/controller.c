@@ -13,7 +13,7 @@ int controller_loadFromText(char* path, LinkedList* pArrayListaPeliculas)
     if (path != NULL && pArrayListaPeliculas != NULL)
     {
         system("cls");
-        printf("Cargar los datos de los peliculas desde el archivo movie.csv (modo texto).\n");
+        printf("Cargar los datos de los peliculas desde el archivo movies.csv (modo texto).\n");
 
         pFile = fopen( path, "r");
         if (pFile == NULL)
@@ -62,7 +62,7 @@ int controller_saveAsText(char* path, LinkedList* pArrayListaPeliculas)
                 && pelicula_getRating(auxPelicula,&rating)
                )
             {
-                fprintf(pFile, "%d,%s,%s,%f\n", id, titulo, genero, rating);
+                fprintf(pFile, "%d,%s,%s,%.1f\n", id, titulo, genero, rating);
                 todoOk = 1;
             }
         }
